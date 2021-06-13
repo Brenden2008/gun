@@ -236,14 +236,16 @@ git push -f heroku HEAD:master
 
 Then visit the URL in the output of the 'heroku create' step, in a browser.
 
-### [Now.sh](https://zeit.co/now/)
+### [Vercel.com](https://vercel.com)
 
 ```bash
-npm install -g now
-now --npm amark/gun
+npm install -g vercel
+git clone https://github.com/amark/gun.git
+cd gun
+vercel
 ```
 
-Then visit the URL in the output of the 'now --npm' step, in your browser.
+Then the url of the 'vercel' step, is your GUN Relay server
 
 ### [Unubo](https://unubo.app/)
 
